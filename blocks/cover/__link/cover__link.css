@@ -1,0 +1,19 @@
+.cover__link {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 115%;
+
+}
+
+.cover__link::before {
+  content: '';
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

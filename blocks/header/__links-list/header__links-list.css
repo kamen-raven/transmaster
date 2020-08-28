@@ -1,0 +1,17 @@
+.header__links-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  .header__links-list {
+
+  }
+}

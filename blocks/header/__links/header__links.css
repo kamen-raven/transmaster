@@ -1,0 +1,9 @@
+.header__links {
+    margin-right: 30px;
+  }
+
+  .header__links:last-child {
+    margin-right: 0;
+  }
+
+

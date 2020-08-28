@@ -1,0 +1,23 @@
+.cover__background {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover__background::before {
+  content: '';
+  background: #000;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

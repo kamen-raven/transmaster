@@ -1,0 +1,22 @@
+.cover__button {
+  max-width: 250px;
+  min-height: 60px;
+  border-radius: 30px;
+  background-color: rgb(231, 232, 241);
+  margin: 25px 5% 25px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__button:hover {
+  opacity: 60%;
+  transition: opacity .3s linear;
+}
+
+.cover__button:active {
+  opacity: 60%;
+  transition: opacity .3s linear;
+}
