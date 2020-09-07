@@ -1,0 +1,24 @@
+.table-price {
+  max-width: 1280px;
+  margin: 56px auto;
+}
+
+@media (max-width: 1024px) {
+  .table-price {
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-price {
+    margin: 88px auto;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .table-price {
+    margin: 64px auto;
+    padding: 0 16px;
+  }
+}

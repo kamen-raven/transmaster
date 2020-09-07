@@ -1,0 +1,9 @@
+.table-price__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+  padding-bottom: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
