@@ -1,0 +1,54 @@
+.grid-item__background {
+  max-width: 1184px;
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../../img/cover_main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.grid-item__background::before {
+  content: '';
+  background: #2A2C2F;
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.grid-item__background:hover::before {
+  content: '';
+  opacity: .8;
+  transition: opacity .2s ease-in;
+}
+
+@media (max-width: 1024px) {
+  .grid-item__background {
+    min-height: 640px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .grid-item__background {
+    min-height: 480px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .grid-item__background {
+    min-height: 200px;
+  }
+}

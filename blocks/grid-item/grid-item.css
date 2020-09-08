@@ -1,0 +1,21 @@
+.grid-item {
+  max-width: 1184px;
+  width: 100%;
+  margin: 92px auto;
+  position: relative;
+
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    margin-top: 88px;
+    margin-bottom: 0;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .grid-item {
+    margin-top: 64px;
+  }
+}

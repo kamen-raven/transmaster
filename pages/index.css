@@ -38,10 +38,16 @@
 @import url(../blocks/table-price/table-price.css);
 @import url(../blocks/table-price/__title/table-price__title.css);
 @import url(../blocks/table-price/__container/);
-@import url();
-@import url();
-@import url();
-@import url();
+
+/*photo-grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+
+/*grid-item*/
+@import url(../blocks/grid-item/grid-item.css);
+@import url(../blocks/grid-item/__title/grid-item__title.css);
+@import url(../blocks/grid-item/__background/grid-item__background.css);
+
 @import url();
 @import url();
 @import url();
