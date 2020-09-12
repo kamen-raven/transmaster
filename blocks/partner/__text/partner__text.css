@@ -1,0 +1,11 @@
+.partner__text {
+  max-width: 400px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 1.5;
+  text-align: right;
+  margin: 0 auto;
+  grid-area: text;
+}

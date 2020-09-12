@@ -1,0 +1,15 @@
+.partner__logo {
+  border: none;
+  max-width: 556px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  grid-area: logo;
+}
+
+.partner__logo:hover {
+  opacity: 80%;
+  transition: opacity .3s linear;
+}

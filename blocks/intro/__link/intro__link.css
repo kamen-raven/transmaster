@@ -1,0 +1,19 @@
+.intro__link {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 115%;
+  z-index: 1;
+}
+
+.intro__link::before {
+  content: '';
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
