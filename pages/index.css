@@ -37,7 +37,7 @@
 /*table-price*/
 @import url(../blocks/table-price/table-price.css);
 @import url(../blocks/table-price/__title/table-price__title.css);
-@import url(../blocks/table-price/__container/);
+@import url(../blocks/table-price/__container/table-price__container.css);
 
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);

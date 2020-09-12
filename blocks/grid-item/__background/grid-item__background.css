@@ -1,7 +1,7 @@
 .grid-item__background {
   max-width: 1184px;
   width: 100%;
-  min-height: 740px;
+  min-height: 560px;
   background-image: url(../../../img/cover_main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,7 @@
 
 @media (max-width: 768px) {
   .grid-item__background {
-    min-height: 480px;
+    min-height: 343px;
   }
 }
 
