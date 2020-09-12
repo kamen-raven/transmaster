@@ -4,6 +4,9 @@
 /*fonts*/
 @import url(../vendor/fonts/roboto.css);
 
+/*root*/
+@import url(../blocks/root/root.css);
+
 /*page*/
 @import url(../blocks/page/page.css);
 
@@ -69,7 +72,7 @@
 @import url(../blocks/partner/__link/partner__link.css);
 @import url();
 @import url();
-@import url();
+@import url(../blocks/back/back.css);
 @import url();
 @import url();
 @import url();
