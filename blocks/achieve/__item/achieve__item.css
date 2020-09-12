@@ -1,0 +1,16 @@
+.achieve__item {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.achieve__item:nth-child(even) {
+  padding-left: 34%;
+}
+
+
+@media (max-width: 617px) {
+  .achieve__item:nth-child(even) {
+    padding-left: 0;
+  }
+}

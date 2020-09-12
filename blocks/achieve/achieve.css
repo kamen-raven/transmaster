@@ -1,0 +1,17 @@
+.achieve {
+  /*
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;*/
+  margin: 56px auto;
+  padding: 0 auto;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 290px);
+  grid-template-rows: 48px 48px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+
+}

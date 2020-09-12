@@ -53,6 +53,12 @@
 @import url(../blocks/grid-item/__title/grid-item__title.css);
 @import url(../blocks/grid-item/__background/grid-item__background.css);
 
+/*achieve*/
+@import url(../blocks/achieve/achieve.css);
+@import url(../blocks/achieve/__item/achieve__item.css);
+@import url(../blocks/achieve/__description/achieve__description.css);
+@import url(../blocks/achieve/__logo/achieve__logo.css);
+
 
 /*partner*/
 @import url(../blocks/partner/partner.css);
