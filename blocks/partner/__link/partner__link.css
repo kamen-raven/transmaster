@@ -1,0 +1,13 @@
+.partner__link {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+justify-self: center;
+}
+
+.partner__link:hover {
+  opacity: 50%;
+  transition: opacity .5s ease-in-out;
+}

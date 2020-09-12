@@ -8,4 +8,13 @@
   text-align: right;
   margin: 0 auto;
   grid-area: text;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .partner__text {
+    padding: 0 10px;
+    max-width: 500px;
+    text-align: justify;
+  }
 }

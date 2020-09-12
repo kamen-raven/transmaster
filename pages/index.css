@@ -66,8 +66,7 @@
 @import url(../blocks/partner/__content/partner__content.css);
 @import url(../blocks/partner/__text/partner__text.css);
 @import url(../blocks/partner/__logo/partner__logo.css);
-
-@import url();
+@import url(../blocks/partner/__link/partner__link.css);
 @import url();
 @import url();
 @import url();
