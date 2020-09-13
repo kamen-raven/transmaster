@@ -5,6 +5,13 @@
   max-width: 690px;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 22px;
   line-height: 1.5;
+}
+
+@media (max-width: 425px) {
+  .intro__list-item {
+    font-size: 18px;
+    line-height: 1.35;
+  }
 }

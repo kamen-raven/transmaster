@@ -3,3 +3,18 @@
   margin-left: 15%;
   padding-left: 20px;
 }
+
+
+@media (max-width: 768px) {
+  .intro__list {
+    margin: 40px 10% 15px;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .intro__list {
+    margin: 20px 5% 15px;
+  }
+}

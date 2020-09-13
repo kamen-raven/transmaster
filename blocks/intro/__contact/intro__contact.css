@@ -5,5 +5,20 @@
   line-height: 1.5;
   margin: 16px 15% 0;
   align-self: center;
+  text-align: center;
 }
 
+
+@media (max-width: 680px) {
+  .intro__contact {
+    font-size: 30px;
+    line-height: 1.35;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__contact {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+}
