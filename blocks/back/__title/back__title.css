@@ -10,3 +10,12 @@
   text-shadow: black 0 0 8px;
   box-sizing: border-box;
 }
+
+
+@media (max-width: 425px) {
+  .back__title {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+}

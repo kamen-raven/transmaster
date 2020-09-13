@@ -21,7 +21,6 @@
 
 @media (max-width: 768px) {
   .partner {
-    margin: 88px auto;
     padding: 0 24px;
     grid-template-areas:
     "title"
@@ -32,7 +31,7 @@
 
 @media (max-width: 425px) {
   .partner {
-    margin: 64px auto;
+    margin: 46px auto;
     padding: 0 16px;
   }
 }
