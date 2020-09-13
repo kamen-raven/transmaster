@@ -5,3 +5,9 @@
   line-height: 1.5;
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  .table-price__thead {
+    font-size: 18px;
+  }
+}

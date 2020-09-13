@@ -4,3 +4,10 @@
 }
 
 
+@media (max-width: 500px) {
+  .table-price__tbody-content {
+    letter-spacing: normal;
+    padding: 10px 10px;
+    text-align: center;
+  }
+}

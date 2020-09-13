@@ -16,3 +16,10 @@
 .table-price__thead-content:nth-child(3) {
   width: 30%;
 }
+
+@media (max-width: 500px) {
+  .table-price__thead-content {
+    letter-spacing: normal;
+    padding: 10px;
+  }
+}

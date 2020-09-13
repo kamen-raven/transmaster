@@ -7,3 +7,11 @@
   line-height: 1.5;
   text-align: center;
 }
+
+
+
+@media (max-width: 500px) {
+  .table-price__title {
+    font-size: 30px;
+  }
+}
