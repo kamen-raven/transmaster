@@ -1,0 +1,7 @@
+.table-price__tbody-zebra:nth-child(odd) {
+  background-color: #cccccc;
+}
+
+.table-price__tbody-zebra:nth-child(even) {
+  background-color: #f8f8f8;
+}

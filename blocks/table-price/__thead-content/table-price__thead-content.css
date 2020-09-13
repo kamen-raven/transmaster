@@ -1,0 +1,18 @@
+.table-price__thead-content {
+  letter-spacing: 2px;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+
+.table-price__thead-content:nth-child(1) {
+  width: 30%;
+}
+
+.table-price__thead-content:nth-child(2) {
+  width: 40%;
+}
+
+.table-price__thead-content:nth-child(3) {
+  width: 30%;
+}

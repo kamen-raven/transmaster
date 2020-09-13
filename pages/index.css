@@ -39,7 +39,6 @@
 @import url(../blocks/intro/_content_center/intro_content_center.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list/intro__list.css);
-
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__contact/intro__contact.css);
@@ -48,11 +47,18 @@
 @import url(../blocks/intro/__text/_content/intro__text_content_center.css);
 @import url(../blocks/intro/__text/_content/intro__text_content_justify.css);
 
-
 /*table-price*/
 @import url(../blocks/table-price/table-price.css);
 @import url(../blocks/table-price/__title/table-price__title.css);
 @import url(../blocks/table-price/__container/table-price__container.css);
+@import url(../blocks/table-price/__thead/table-price__thead.css);
+@import url(../blocks/table-price/__tbody/table-price__tbody.css);
+@import url(../blocks/table-price/__thead-content/table-price__thead-content.css);
+@import url(../blocks/table-price/__tbody-content/table-price__tbody-content.css);
+@import url(../blocks/table-price/__tbody-zebra/table-price__tbody-zebra.css);
+
+
+
 
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -83,7 +89,6 @@
 @import url(../blocks/back/__title/back__title.css);
 @import url(../blocks/back/__text/back__text.css);
 
-
 /*contacts*/
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__container/contacts__container.css);
@@ -106,13 +111,7 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-list/footer__column-list.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
 @import url(../blocks/footer/__container/footer__container.css);
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
 @import url();
 @import url();
 @import url();

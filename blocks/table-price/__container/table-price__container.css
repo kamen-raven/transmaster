@@ -1,3 +1,8 @@
 .table-price__container {
+  max-width: 960px;
   margin: 0 auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+
 }
+
