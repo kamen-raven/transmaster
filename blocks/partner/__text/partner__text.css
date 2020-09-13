@@ -18,3 +18,14 @@
     text-align: justify;
   }
 }
+
+
+
+
+@media (max-width: 360px) {
+  .partner__text {
+    padding: 0 10px;
+    max-width: 500px;
+    text-align: center;
+  }
+}

@@ -17,3 +17,18 @@
   background-color: rgb(122, 122, 122, .6);
   transition: background-color .3s linear;
 }
+
+
+@media (max-width: 620px) {
+  .intro__button {
+    padding: 0 80px;
+    margin: 0 20px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .intro__button {
+    padding: 0 40px;
+  }
+}

@@ -25,11 +25,18 @@
 /*cover*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__background/_page/cover__background_page_main.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__button/cover__button.css);
 @import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_main.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_price.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_problems.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_guarantee.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_contacts.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_akpp.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_rkpp.css);
+@import url(../blocks/cover/__background/_page/cover__background_page_variator.css);
 
 /*span-accent*/
 @import url(../blocks/span-accent/span-accent.css);
@@ -57,17 +64,17 @@
 @import url(../blocks/table-price/__tbody-content/table-price__tbody-content.css);
 @import url(../blocks/table-price/__tbody-zebra/table-price__tbody-zebra.css);
 
-
-
-
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /*grid-item*/
 @import url(../blocks/grid-item/grid-item.css);
 @import url(../blocks/grid-item/__title/grid-item__title.css);
 @import url(../blocks/grid-item/__background/grid-item__background.css);
+@import url(../blocks/grid-item/__background/_link/grid-item__background_link_akpp.css);
+@import url(../blocks/grid-item/__background/_link/grid-item__background_link_rkpp.css);
+@import url(../blocks/grid-item/__background/_link/grid-item__background_link_variator.css);
+@import url(../blocks/grid-item/__background/_link/grid-item__background_link_guarantee.css);
 
 /*achieve*/
 @import url(../blocks/achieve/achieve.css);

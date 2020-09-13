@@ -9,7 +9,7 @@
 }
 
 
-@media (max-width: 617px) {
+@media (max-width: 656px) {
   .achieve__item:nth-child(even) {
     padding-left: 0;
   }
