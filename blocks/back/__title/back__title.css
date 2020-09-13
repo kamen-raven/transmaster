@@ -1,0 +1,12 @@
+.back__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 35px 20px 35px 50px;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff;
+  text-shadow: black 0 0 8px;
+  box-sizing: border-box;
+}

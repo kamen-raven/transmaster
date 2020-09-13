@@ -10,6 +10,6 @@
 }
 
 .partner__logo:hover {
-  opacity: 80%;
+  opacity: 90%;
   transition: opacity .3s linear;
 }

@@ -1,8 +1,8 @@
 .back {
   max-width: 1280px;
   margin: 0 auto;
-  height: 30vh;
+  max-height: 50vh;
   background-image: url(../../img/icon/IMG_8154.jpg);
   background-attachment: fixed;
-  background-position: 0;
+  background-position: center;
 }

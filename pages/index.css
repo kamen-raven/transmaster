@@ -62,7 +62,6 @@
 @import url(../blocks/achieve/__description/achieve__description.css);
 @import url(../blocks/achieve/__logo/achieve__logo.css);
 
-
 /*partner*/
 @import url(../blocks/partner/partner.css);
 @import url(../blocks/partner/__title/partner__title.css);
@@ -70,9 +69,11 @@
 @import url(../blocks/partner/__text/partner__text.css);
 @import url(../blocks/partner/__logo/partner__logo.css);
 @import url(../blocks/partner/__link/partner__link.css);
-@import url();
-@import url();
+
+/*back*/
 @import url(../blocks/back/back.css);
+@import url(../blocks/back/__title/back__title.css);
+@import url(../blocks/back/__text/back__text.css);
 @import url();
 @import url();
 @import url();
