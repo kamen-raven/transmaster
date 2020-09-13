@@ -1,8 +1,6 @@
 .logo {
   background-image: url(../../../img/logo_blue.png);
-  max-width: 290px;
-  min-height: 28px;
-  width: 100%;
+
   background-repeat: no-repeat;
   background-size: contain;
 }
