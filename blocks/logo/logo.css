@@ -1,4 +1,4 @@
-.header__logo {
+.logo {
   background-image: url(../../../img/logo_blue.png);
   max-width: 290px;
   min-height: 28px;
@@ -7,14 +7,14 @@
   background-size: contain;
 }
 
-.header__logo:hover {
+.logo:hover {
   opacity: 70%;
   transition: opacity .3s linear;
 }
 
 
 @media (max-width: 425px) {
-  .header__logo {
+  .logo {
     max-width: 142px;
   }
 }

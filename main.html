@@ -13,7 +13,7 @@
 <body class="root">
   <div class="page">
     <header class="header">
-      <a class="header__logo"
+      <a class="logo"
           href="./main.html">
       </a>
       <nav class="header__nav">
@@ -320,24 +320,82 @@
         </div>
       </section>
       <!--map-->
-      <section>
-        <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3Af6a67a94a27ba1a6f3e1debb72e9475eff262aad909713ef9f8a88c87267bed9&amp;source=constructor"
-          width="1280"
-          height="500"
-          frameborder="0">
-        </iframe>
+      <section class="map">
+        <div id="wrapMap">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Af6a67a94a27ba1a6f3e1debb72e9475eff262aad909713ef9f8a88c87267bed9&amp;source=constructor"
+            width="100%"
+            height="450"
+            frameborder="0"
+            style="pointer-events: none;">
+          </iframe>
+        </div>
       </section>
-
-
     </main>
-
-
-
-
     <footer class="footer">
-
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <a class="logo logo_place_footer" href="#"></a>
+          <p class="footer__author">
+            &copy; 2019. Виктор Абанькин
+          </p>
+        </div>
+        <div class="footer__column footer__column_content_info">
+          <h4 class="footer__column-heading">О Практикуме</h4>
+          <nav class="footer__column-links">
+            <ul class="footer__column-list">
+              <li>
+                <a class="footer__column-link" href="#">
+                  Главная
+                </a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">
+                  Концепция
+                </a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">
+                  Наставники
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h4 class="footer__column-heading">Соцсети</h4>
+          <nav class="footer__column-links">
+            <ul class="footer__column-list">
+              <li>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon"
+                    src="./images/logo/facebook_color_white.svg"
+                    alt="Facebook">
+                      Facebook
+                </a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon"
+                    src="./images/logo/vk_color_white.svg"
+                    alt="ВКонтакте">
+                      ВКонтакте
+                </a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon"
+                    src="./images/logo/instagram_color_white.svg"
+                    alt="Instagram">
+                      Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </footer>
   </div>
+  <script src="./script/map.js"></script>
 </body>
 </html>
