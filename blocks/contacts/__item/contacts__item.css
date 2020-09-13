@@ -1,0 +1,21 @@
+.contacts__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  text-align: center;
+
+
+}
+
+
+
+@media (max-width: 598px) {
+  .contacts__item {
+  font-size: 14px;
+  line-height: 17px;
+  }
+}
+
+
