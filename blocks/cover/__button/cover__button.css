@@ -12,11 +12,12 @@
 }
 
 .cover__button:hover {
-  opacity: 60%;
+  opacity: 70%;
   transition: opacity .3s linear;
 }
 
 .cover__button:active {
-  opacity: 60%;
+  opacity: 70%;
   transition: opacity .3s linear;
 }
+
