@@ -75,8 +75,10 @@
 
 /*back*/
 @import url(../blocks/back/back.css);
+@import url(../blocks/back/_page/back_page_main.css);
 @import url(../blocks/back/__title/back__title.css);
 @import url(../blocks/back/__text/back__text.css);
+
 
 /*contacts*/
 @import url(../blocks/contacts/contacts.css);
@@ -85,8 +87,9 @@
 @import url(../blocks/contacts/__item/contacts__item.css);
 @import url(../blocks/contacts/__icon/contacts__icon.css);
 
-@import url();
-@import url();
+/*map*/
+@import url(../blocks/map/map.css);
+
 @import url();
 @import url();
 @import url();
