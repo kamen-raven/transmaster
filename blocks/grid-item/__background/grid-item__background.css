@@ -2,7 +2,6 @@
   max-width: 1184px;
   width: 100%;
   min-height: 560px;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,14 +34,14 @@
 
 @media (max-width: 1024px) {
   .grid-item__background {
-    min-height: 640px;
+    min-height: 400px;
   }
 }
 
 
 @media (max-width: 768px) {
   .grid-item__background {
-    min-height: 343px;
+    min-height: 300px;
   }
 }
 

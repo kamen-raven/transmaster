@@ -5,17 +5,3 @@
   position: relative;
 
 }
-
-@media (max-width: 768px) {
-  .grid-item {
-    margin-top: 88px;
-    margin-bottom: 0;
-  }
-}
-
-
-@media (max-width: 425px) {
-  .grid-item {
-    margin-top: 64px;
-  }
-}
