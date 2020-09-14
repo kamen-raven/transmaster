@@ -2,4 +2,13 @@
   justify-content: space-between;
   min-height: 200px;
   flex-basis: 711px;
+  margin-left: 40px;
+}
+
+
+@media (max-width: 660px) {
+  .footer__column_content_copyright {
+    min-height: 0;
+    flex-basis: auto;
+  }
 }

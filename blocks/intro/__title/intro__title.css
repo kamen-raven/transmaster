@@ -21,3 +21,11 @@
     padding: 0 10px;
   }
 }
+
+@media (max-width: 370px) {
+  .intro__title {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 0;
+  }
+}
