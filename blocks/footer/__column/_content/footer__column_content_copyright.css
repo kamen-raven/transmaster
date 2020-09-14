@@ -1,14 +1,9 @@
 .footer__column_content_copyright {
-  justify-content: space-between;
-  min-height: 200px;
-  flex-basis: 711px;
-  margin-left: 40px;
+  margin-right: 40px;
 }
 
-
-@media (max-width: 660px) {
+@media (max-width: 768px) {
   .footer__column_content_copyright {
-    min-height: 0;
-    flex-basis: auto;
+    margin: 0 auto;
   }
 }
