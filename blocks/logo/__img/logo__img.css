@@ -1,0 +1,6 @@
+.logo__img {
+  width: 100%;
+  object-fit: contain;
+  box-sizing: content-box;
+}
+
