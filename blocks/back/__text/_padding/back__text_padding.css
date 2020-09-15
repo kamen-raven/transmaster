@@ -3,7 +3,7 @@
 }
 
 @media (max-width: 425px) {
-  .back__text {
+  .back__text_padding {
     padding: 30px;
   }
 }
