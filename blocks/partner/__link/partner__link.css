@@ -1,13 +1,22 @@
 .partner__link {
   text-decoration: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
-  align-self: center;
-justify-self: center;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+-ms-grid-column-align: center;
+    justify-self: center;
 }
 
 .partner__link:hover {
   opacity: 50%;
+  -webkit-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
   transition: opacity .5s ease-in-out;
 }

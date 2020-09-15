@@ -1,13 +1,22 @@
 .partner {
+  display: -ms-grid;
   display: grid;
   max-width: 1280px;
+  -ms-grid-columns: 1fr 36px minmax(250px 556px);
   grid-template-columns: 1fr minmax(250px 556px);
+  -ms-grid-rows: 48px 36px 1fr;
   grid-template-rows: 48px 1fr;
   gap: 36px;
-  justify-content: center;
-  align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
   margin: 56px auto;
-  grid-template-areas:
+      grid-template-areas:
   "title title"
   "text logo";
 }
@@ -22,7 +31,7 @@
 @media (max-width: 768px) {
   .partner {
     padding: 0 24px;
-    grid-template-areas:
+        grid-template-areas:
     "title"
     "text"
     "logo";

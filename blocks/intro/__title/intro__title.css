@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: 54px;
   line-height: 58px;
-  margin: 0;
+  margin: 0 auto 40px;
   text-align: center;
 }
 
@@ -37,3 +37,4 @@
     padding: 0;
   }
 }
+

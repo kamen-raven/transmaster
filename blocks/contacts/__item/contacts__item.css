@@ -5,8 +5,10 @@
   line-height: 24px;
   margin: 0;
   text-align: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
 }
 
 
@@ -15,10 +17,5 @@
   .contacts__item {
   font-size: 14px;
   line-height: 17px;
-
-  grid-column-start: 1;
-  grid-column-end: 2;
   }
 }
-
-

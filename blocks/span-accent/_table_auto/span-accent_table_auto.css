@@ -1,0 +1,9 @@
+.span-accent_table_auto {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .span-accent_table_auto {
+    font-size: 16px;
+  }
+}

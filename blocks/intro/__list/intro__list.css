@@ -1,13 +1,16 @@
 .intro__list {
-  align-self: flex-start;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
   margin-left: 15%;
   padding-left: 20px;
+  margin-bottom: 40px;
 }
 
 
 @media (max-width: 768px) {
   .intro__list {
-    margin: 40px 10% 15px;
+    margin: 40px 10%;
   }
 }
 
@@ -15,6 +18,6 @@
 
 @media (max-width: 425px) {
   .intro__list {
-    margin: 20px 5% 15px;
+    margin: 20px 5%;
   }
 }

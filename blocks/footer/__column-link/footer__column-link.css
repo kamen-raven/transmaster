@@ -8,5 +8,8 @@
 
   .footer__column-link:hover {
     opacity: 70%;
+    -webkit-transition: opacity .3s ease-in;
+    -o-transition: opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-in;
     transition: opacity .3s ease-in;
   }
